@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/DataRow"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DataId"
+        android:text="Id"
+        android:layout_margin="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="#ff5684e3"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp" />
+    <TextView
+        android:text="Value"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DataValue"
+        android:background="#ff3663b9"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp" 
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="0dp"/>
+</LinearLayout>
